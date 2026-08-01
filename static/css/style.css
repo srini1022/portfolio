@@ -1,0 +1,13 @@
+.gradient-text {
+    background: linear-gradient(45deg, #3b82f6, #10b981);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.project-card {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
